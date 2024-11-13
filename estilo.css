@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+
+
+:root {
+    --cor0: #032BF4; 
+    --cor1: #3BF1F5;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-destaque: 'Sigmar One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(3, 3, 3, 0.774);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to right, #032BF4, transparent);
+    color: rgb(0, 0, 0);
+    min-height: 150px;
+    text-align: center;
+    min-width: 100%;
+}
+
+header > h1 {
+    color: white;
+    font-weight: normal;
+    font-family: var(--fonte-destaque);
+    padding-top: 30px; /* espacamento entre o topo e o Paragrafo */
+    margin-bottom: 20px; /* espacamento entre O titulo e o Paragrafo */
+    font-size: 3em; } 
+
+    nav {
+        
+        padding: 10px; /* preenchimento */
+        background-color: rgba(0, 0, 0, 0.87);
+        text-align: right; /* alinhar o texto a direita */
+    }
+
+    nav > a {
+        color: white; /* cor do texto */
+        padding: 10px; /* preenchimento */
+        text-decoration: none; /* tirar o sublinhado */
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+
+    nav > a:hover {
+        background-image: linear-gradient(to right, #032BF4, transparent);
+        color: color(white);
+        text-decoration: underline;
+    }
+
+
+
+main {
+    min-width: 50px; /* tamanho minimo da pagina */
+    max-width: 1000px; /* tamanho maximo da pagina */
+    margin: auto; /* centralizar o site */
+    margin-bottom: 30px;
+    padding: 20px; /* preenchimento */
+    background-color: white;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.74); /* sombra */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+
+main img {
+    
+    margin: auto;
+    display: float;
+    width: 100%;
+    border-radius: 30%;
+    box-shadow: 1px 1px 1px 1px;
+    padding-bottom: 2px;
+}
+
+main img.pequena {
+    max-width: 500px; 
+    margin: auto; 
+    display: block;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, #032bf4b9, transparent);
+    color: black;
+    box-shadow: 1px 1px 1px 1px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    text-indent: 10px;
+    margin-top: 10px;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-indent: 50px;   
+    line-height: 2em; /* espacamento entre linhas */ 
+}
+
+main a.curriculo {
+    color: rgb(0, 0, 0); /* cor do texto */
+    padding: 10px; /* preenchimento */
+    font-weight: bold;
+    transition-duration: 1s;   
+}
+
+main strong {
+    background-image: linear-gradient(to right, #032BF4, transparent); 
+
+}
+
+a.curriculo:hover {
+    background-image: linear-gradient(to right, #032BF4, transparent); 
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px; /* preenchimento */
+    background-color: #3C3C3C;
+    margin-bottom: 10px;
+     
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+footer a {
+    color: rgb(255, 255, 255); /* cor do texto */
+    padding: 20px; /* preenchimento */
+    text-decoration: none; /* tirar o sublinhado */
+    font-weight: bold;
+    transition-duration: 0.5s;
+    
+    
+}
+
+footer a:hover{
+    background-image: linear-gradient(to right, #032BF4, transparent);
+    color: color(white);
+    text-decoration: underline;
+    
+
+}
+
