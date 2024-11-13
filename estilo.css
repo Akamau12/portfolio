@@ -9,7 +9,7 @@
 :root {
     --cor0: #032BF4; 
     --cor1: #3BF1F5;
-    --cor2: #3ddc84;
+    --cor2: #032bf48f;
     --cor3: #2fa866;
     --cor4: #1a5c37;
     --cor5: #063d1e;
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, #032BF4, transparent);
+    background-image: linear-gradient(to right, #ee1d24, transparent);
     color: rgb(0, 0, 0);
     min-height: 150px;
     text-align: center;
@@ -42,7 +42,9 @@ header > h1 {
     font-family: var(--fonte-destaque);
     padding-top: 30px; /* espacamento entre o topo e o Paragrafo */
     margin-bottom: 20px; /* espacamento entre O titulo e o Paragrafo */
-    font-size: 3em; } 
+    font-size: 3em; 
+    text-shadow: 1px 5px 5px  rgb(0, 0, 0);
+} 
 
     nav {
         
