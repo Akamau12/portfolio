@@ -172,7 +172,7 @@ footer a:hover{
     padding: 15px; /* preenchimento */
     background-color: #3C3C3C;
     margin-bottom: 10px;
-    background-image: linear-gradient(to right, #ee1d24, transparent);
+    background-image: linear-gradient(to right, #ee1d248f, transparent);
     border-radius: 10px;
 }
 
