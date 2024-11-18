@@ -49,12 +49,52 @@ header > h1 {
 
 main {
     margin: auto; /* centralizar o site */
-    background-color: bisque;
-
-
+    background-color: #3C3C3C;
 }
 
-p {
+nav {
+        background-color: black;
+}
+
+
+
+.voltar {
+    color: rgb(255, 255, 255);
+    padding: 10px; /* preenchimento */
+    font-weight: bold;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.voltar:hover {
+    background-image: linear-gradient(to right, #3C3C3C, transparent); 
+    text-decoration: underline;
+}
+
+main img {
+    margin: auto;
+    display: float;
+    width: 100%;
+    border-radius: 30%;
+    box-shadow: 1px 1px 1px 1px;
+    padding-bottom: 2px;
+}
+
+.grande {
+    max-width: 400px; 
+    margin: auto; 
+    display: block
+}
+
+
+main p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px; /* preenchimento */
+    background-color: rgba(0, 0, 0, 0.87);
     margin-top: auto;
     font-family: var(--fonte-padrao);
     text-align: justify;
@@ -64,16 +104,23 @@ p {
     line-height: 2em; /* espacamento entre linhas */
 }
 
-
-main img {
-    float: right; /* alinhar imagem a direita */
-    margin-left: auto; /* centralizar o site */
-    display: float; /* deixar imagem flutuante */
-    width: 500px; /* tamanho da imagem */
-    height: 500px; /* tamanho da imagem */
-    border-radius: 30%; /* borda arredondada */
-    padding-right: 35px; 
+.curriculo {
+    color: rgb(255, 255, 255);
+    background-color: 3C3C3C;
+    padding: 10px; /* preenchimento */
+    font-weight: bold;
+    transition-duration: 1s;
+    text-decoration: none;
 }
+
+.curriculo:hover {
+    background-image: linear-gradient(to right, black, transparent); 
+    text-decoration: underline;
+    padding: 10px;
+}
+
+
+
 
 
 
