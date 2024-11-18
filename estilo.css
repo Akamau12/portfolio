@@ -100,11 +100,10 @@ main img.pequena {
 }
 
 main h2 {
-    background-image: linear-gradient(to right, #032bf48f, transparent);
-    color: black;
+    background-image: linear-gradient(to right, #032bf4a1, transparent);
     box-shadow: 1px 1px 1px 1px;
     font-family: var(--fonte-destaque);
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-indent: 10px;
     margin-top: 10px;
 }
@@ -164,7 +163,15 @@ footer a:hover{
     background-image: linear-gradient(to right, #032BF4, transparent);
     color: color(white);
     text-decoration: underline;
-    
+}
 
+.atualizacao {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 15px; /* preenchimento */
+    background-color: #3C3C3C;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, #032bf4be, transparent);
+    border-radius: 10px;
 }
 
