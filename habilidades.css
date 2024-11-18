@@ -82,12 +82,18 @@ main p {
     line-height: 2em; /* espacamento entre linhas */
 }
 
+main strong {  
+    padding: 10px; /* preenchimento */
+
+}
+
 nav {
         background-color: black;
 }
 
 
 .voltar {
+    font-size: 1.3em;
     color: rgb(255, 255, 255);
     padding: 10px; /* preenchimento */
     font-weight: bold;
@@ -113,6 +119,7 @@ nav {
 
 
 .curriculo {
+    font-size: 1.3em;
     color: rgb(255, 255, 255);
     background-color: 3C3C3C;
     padding: 10px; /* preenchimento */
@@ -126,6 +133,8 @@ nav {
     text-decoration: underline;
     padding: 10px;
 }
+
+
 
 
 
