@@ -64,7 +64,7 @@ header > h1 {
     }
 
     nav > a:hover {
-        background-image: linear-gradient(to right, #032BF4, transparent);
+        background-image: linear-gradient(to right, #ee1d24, transparent);
         color: color(white);
         text-decoration: underline;
     }
@@ -100,8 +100,7 @@ main img.pequena {
 }
 
 main h2 {
-    background-image: linear-gradient(to right, #032bf4a1, transparent);
-    box-shadow: 1px 1px 1px 1px;
+    background-image: linear-gradient(to right, #ee1d24d2, transparent);
     font-family: var(--fonte-destaque);
     font-size: 1.5em;
     text-indent: 10px;
@@ -125,12 +124,12 @@ main a.curriculo {
 }
 
 main strong {
-    background-image: linear-gradient(to right, #032bf4be, transparent); 
+    background-image: linear-gradient(to right, #ee1d24, transparent); 
 
 }
 
 a.curriculo:hover {
-    background-image: linear-gradient(to right, #032BF4, transparent); 
+    background-image: linear-gradient(to right, #ee1d24, transparent); 
     text-decoration: underline;
 }
 
@@ -160,10 +159,12 @@ footer a {
 }
 
 footer a:hover{
-    background-image: linear-gradient(to right, #032BF4, transparent);
+    background-image: linear-gradient(to right, #ee1d24, transparent);
     color: color(white);
     text-decoration: underline;
 }
+
+
 
 .atualizacao {
     text-align: left;
@@ -171,7 +172,7 @@ footer a:hover{
     padding: 15px; /* preenchimento */
     background-color: #3C3C3C;
     margin-bottom: 10px;
-    background-image: linear-gradient(to right, #032bf4be, transparent);
+    background-image: linear-gradient(to right, #ee1d24, transparent);
     border-radius: 10px;
 }
 
