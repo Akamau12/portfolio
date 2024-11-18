@@ -52,13 +52,14 @@ header > h1 {
 }
 
 header p {
+    margin: auto;
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 10px; /* preenchimento */
-    background-color: rgba(0, 0, 0, 0.87);
+    padding-top: 10px; /* preenchimento */
+    padding-bottom: 10px;
     font-family: var(--fonte-padrao);
     text-align: justify;
-    text-indent: 50px;  
+    text-indent: 20px;  
 }
 
 nav {
