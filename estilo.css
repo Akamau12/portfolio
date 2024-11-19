@@ -48,7 +48,7 @@ header > h1 {
 } 
 
     nav {
-        
+        font-size: 1.2em;
         padding: 10px; /* preenchimento */
         background-color: rgba(0, 0, 0, 0.87);
         text-align: right; /* alinhar o texto a direita */
@@ -84,9 +84,8 @@ main {
     }
 
 main img {
-    
     margin: auto;
-    display: float;
+    display: block;
     width: 100%;
     border-radius: 30%;
     box-shadow: 1px 1px 1px 1px;
@@ -138,9 +137,10 @@ footer {
     color: rgb(255, 255, 255);
     padding: 10px; /* preenchimento */
     background-color: #3C3C3C;
-    margin-bottom: 10px;
-     
+    margin-bottom: 10px;   
 }
+
+
 
 footer p {
     margin-top: 10px;
@@ -158,14 +158,6 @@ footer a {
     
 }
 
-footer a:hover{
-    background-image: linear-gradient(to right, #ee1d24, transparent);
-    color: color(white);
-    text-decoration: underline;
-}
-
-
-
 .atualizacao {
     text-align: left;
     color: rgb(255, 255, 255);
@@ -176,3 +168,9 @@ footer a:hover{
     border-radius: 10px;
 }
 
+.logos {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
