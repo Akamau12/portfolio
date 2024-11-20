@@ -43,9 +43,9 @@ header > h1 {
     color: white;
     font-weight: normal;
     font-family: var(--fonte-destaque);
-    padding-top: 30px; /* espacamento entre o topo e o Paragrafo */
-    margin-bottom: 20px; /* espacamento entre O titulo e o Paragrafo */
-    font-size: 3em; 
+    font-variant: small-caps; 
+    /*Faz com que as letras fiquem maiusculas, mas pequenas somente as primeiras.*/
+    font-size: 10vmin;
     text-shadow: 1px 5px 5px  rgb(0, 0, 0);
 }
 
@@ -121,7 +121,7 @@ main p {
     font-family: var(--fonte-destaque2);
     text-align: center;
     padding: 13px; /* preenchimento */
-    font-size: 3em;
+    font-size: 7vmin;
     text-decoration: none;
     transition-duration: 1s;
 }
@@ -143,16 +143,13 @@ article {
 }
 
 .portfolio {
-    padding: 10px; /* preenchimento */
-    font-family: var(--fonte-padrao);
-    font-size: 2.3em;
+    font-family: var(--fonte-destaque2);
+    font-size: 7vmin;
     text-decoration: none;
 }
 
 .portfolio:hover {
     text-decoration: underline;
-    padding-bottom: 6px;
-    background-image: linear-gradient(to right, #ee1d24, transparent);
 }
 
 footer {
