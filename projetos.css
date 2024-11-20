@@ -47,6 +47,7 @@ header > h1 {
     /*Faz com que as letras fiquem maiusculas, mas pequenas somente as primeiras.*/
     font-size: 10vmin;
     text-shadow: 1px 5px 5px  rgb(0, 0, 0);
+    padding: 30px;
 }
 
 header p {
