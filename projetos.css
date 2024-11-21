@@ -99,9 +99,11 @@ main {
 }
 
 main h2 {
-    text-align: center;
     padding-bottom: 30px;
-     font-family: var(--fonte-padrao);
+    text-align: center;
+    min-width: 100%;
+    margin-top: auto;
+    font-family: var(--fonte-padrao);
     font-size: 2em;
 }
 
@@ -121,8 +123,8 @@ main p {
 .android {
     font-family: var(--fonte-destaque2);
     text-align: center;
-    padding: 13px; /* preenchimento */
-    font-size: 7vmin;
+    padding: 10px; /* preenchimento */
+    font-size: 6vmin;
     text-decoration: none;
     transition-duration: 1s;
 }
@@ -145,7 +147,7 @@ article {
 
 .portfolio {
     font-family: var(--fonte-destaque2);
-    font-size: 7vmin;
+    font-size: 6vmin;
     text-decoration: none;
 }
 
