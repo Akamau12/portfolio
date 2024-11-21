@@ -143,6 +143,51 @@ nav {
     
 }
 
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px; /* preenchimento */
+    background-color: #3C3C3C;
+    margin-bottom: 10px;   
+}
+
+
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+footer a {
+    color: rgb(255, 255, 255); /* cor do texto */
+    padding: 20px; /* preenchimento */
+    text-decoration: none; /* tirar o sublinhado */
+    font-weight: bold;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.atualizacao {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 15px; /* preenchimento */
+    background-color: #3C3C3C;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, black, transparent);
+    border-radius: 10px;
+}
+
+.logos {
+    padding: 15px; 
+    padding-bottom: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+
+
 
 
 
