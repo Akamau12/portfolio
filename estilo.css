@@ -108,17 +108,16 @@ main img.pequena {
 
 main h2 {
     font-family: var(--fonte-destaque);
-    font-size: 1.5em;
+    font-size: 2em;
     text-indent: 10px;
     margin-top: 10px;
-    font-size: 4vmin;
     margin-bottom: 10px;
 }
 
 main p {
     font-family: var(--fonte-padrao);
     text-align: justify;
-    font-size: 3.5vmin;
+    font-size: 1.4em;
     font-weight: normal;
     text-indent: 50px;   
     line-height: 2em; /* espacamento entre linhas */ 
