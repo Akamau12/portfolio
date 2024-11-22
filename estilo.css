@@ -56,6 +56,8 @@ header > h1 {
 } 
 
     nav {
+        position: sticky; /* fixar o menu */
+        top: 0px;
         font-size: 1.2em;
         padding: 10px; /* preenchimento */
         background-color: rgba(0, 0, 0, 0.87);

@@ -88,7 +88,10 @@ main strong {
 }
 
 nav {
-        background-color: black;
+    position: sticky; /* fixar o menu */
+    top: 0px;
+    background-color: black;
+    padding: 10px;
 }
 
 

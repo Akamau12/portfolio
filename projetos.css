@@ -62,6 +62,8 @@ header p {
 }
 
 nav {
+    position: sticky; /* fixar o menu */
+    top: 0px;
     color: white;
     padding:  15px; /* preenchimento */
     padding-top: 15px;
