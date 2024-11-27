@@ -92,6 +92,7 @@ nav {
     top: 0px;
     background-color: black;
     padding: 10px;
+    text-align: right;
 }
 
 
@@ -177,8 +178,7 @@ footer a {
     color: rgb(255, 255, 255);
     padding: 15px; /* preenchimento */
     background-color: #3C3C3C;
-    margin-bottom: 10px;
-    background-image: linear-gradient(to right, black, transparent);
+    margin-bottom: 10px;   
     border-radius: 10px;
 }
 
