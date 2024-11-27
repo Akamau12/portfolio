@@ -47,7 +47,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     padding-top: 30px; /* espacamento entre o topo e o Paragrafo */
    
-    font-size: 8vmin; /*10% da largura da tela, e ele vai diminuindo conforme tamanho da tela*/
+    font-size: 4em; /*10% da largura da tela, e ele vai diminuindo conforme tamanho da tela*/
 
     font-variant: small-caps; 
     /*Faz com que as letras fiquem maiusculas, mas pequenas somente as primeiras.*/
