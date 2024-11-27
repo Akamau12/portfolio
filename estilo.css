@@ -47,7 +47,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     padding-top: 30px; /* espacamento entre o topo e o Paragrafo */
    
-    font-size: 4em; /*10% da largura da tela, e ele vai diminuindo conforme tamanho da tela*/
+    font-size: 6vmax; /*10% da largura da tela, e ele vai diminuindo conforme tamanho da tela*/
 
     font-variant: small-caps; 
     /*Faz com que as letras fiquem maiusculas, mas pequenas somente as primeiras.*/
@@ -98,7 +98,6 @@ main img {
     display: block;
     width: 100%;
     border-radius: 30%;
-    box-shadow: 1px 1px 1px 1px;
     padding-bottom: 2px;
 }
 
@@ -172,7 +171,7 @@ footer a {
 }
 
 .logos {
-    padding: 15px; 
+    
     padding-bottom: 40px;
     width: 80px;
     height: 80px;

@@ -45,20 +45,20 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-variant: small-caps; 
     /*Faz com que as letras fiquem maiusculas, mas pequenas somente as primeiras.*/
-    font-size: 12vmin;
+    font-size: 6vmax;
     text-shadow: 1px 5px 5px  rgb(0, 0, 0);
     padding: 30px;
 }
 
 header p {
-    margin: auto;
-    text-align: center;
+    
+    
     color: rgb(255, 255, 255);
-    padding-top: 10px; /* preenchimento */
-    padding-bottom: 10px;
+    text-align: center;
+    padding: 10px; /* preenchimento */
     font-family: var(--fonte-padrao);
     text-align: justify;
-    text-indent: 20px;  
+    font-size: 3vmin;
     
 }
 
@@ -205,7 +205,7 @@ footer a {
 }
 
 .logos {
-    padding: 15px; 
+    
     padding-bottom: 40px;
     width: 80px;
     height: 80px;
