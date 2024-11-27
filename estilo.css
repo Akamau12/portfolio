@@ -108,13 +108,7 @@ main img.pequena {
     display: block;
 }
 
-main h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    text-indent: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 
 main p {
     font-family: var(--fonte-padrao);
